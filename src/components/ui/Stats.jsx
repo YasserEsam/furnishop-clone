@@ -1,4 +1,3 @@
-// components/ui/Stats.jsx
 const StatItem = ({ value, label, showDivider = true, index }) => {
   const showMobileDivider = index === 0 || index === 2;
 
@@ -30,7 +29,11 @@ const Stats = () => {
   ];
 
   return (
-    <div className="relative z-30 px-4 sm:px-6 -mt-24 sm:-mt-32 mb-10">
+    <div
+      className="relative z-30 px-4 sm:px-6 -mt-24 sm:-mt-32 mb-10"
+      data-aos="fade-up"
+      data-aos-duration="500"
+    >
       <div className="py-8 sm:py-12 mx-auto max-w-7xl rounded-3xl bg-[#286F6C]">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-y-10 gap-x-6 px-4 sm:px-6">
           {stats.map((stat, index) => (
@@ -40,6 +43,9 @@ const Stats = () => {
               label={stat.label}
               showDivider={stat.showDivider !== false}
               index={index}
+              data-aos="zoom-in"
+              data-aos-delay={index * 150}
+              data-aos-duration="600"
             />
           ))}
         </div>

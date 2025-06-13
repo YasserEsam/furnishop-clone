@@ -3,7 +3,6 @@ import React from "react";
 const Newsletter = () => {
   return (
     <section className="relative py-20 lg:py-28 overflow-hidden">
-      {/* Background image */}
       <div
         className="absolute inset-0 z-0"
         style={{
@@ -14,21 +13,33 @@ const Newsletter = () => {
           backgroundAttachment: "fixed",
         }}
       />
-      {/* Overlay */}
       <div className="absolute inset-0 bg-black/10 z-0" />
 
-      {/* Content wrapper */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl text-white text-center md:text-start md:ml-auto">
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
+          <h2
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4"
+            data-aos="fade-down"
+            data-aos-duration="500"
+          >
             Join Our Newsletter
           </h2>
-          <p className="text-base sm:text-lg mb-8 leading-relaxed">
+          <p
+            className="text-base sm:text-lg mb-8 leading-relaxed"
+            data-aos="fade-down"
+            data-aos-delay="200"
+            data-aos-duration="500"
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
             ducimus.
           </p>
 
-          <form className="flex flex-row items-center justify-center gap-3 sm:gap-4 max-w-xl mx-auto md:mx-0 md:justify-start">
+          <form
+            className="flex flex-row items-center justify-center gap-3 sm:gap-4 max-w-xl mx-auto md:mx-0 md:justify-start"
+            data-aos="zoom-in"
+            data-aos-delay="400"
+            data-aos-duration="400"
+          >
             <input
               type="email"
               placeholder="Your email address"
