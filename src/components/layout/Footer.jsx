@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 
+// Yasser Esam Alariqi
+// Yasser Esam Alariqi
+
 const Footer = () => {
   return (
     <footer className="bg-[#23262F] text-gray-400 pt-12 pb-4">
@@ -280,7 +283,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        {/* Copyright */}
+        {/* Copyright Yasser Esam Alariqi */}
         <div className="text-center text-gray-500 text-xs sm:text-sm mt-12">
           © NanoBrand 2022 - All Rights Reserved
         </div>

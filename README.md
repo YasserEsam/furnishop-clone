@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FurniShop Clone
 
-## Getting Started
+A modern e-commerce front-end replication of a Figma design, showcasing responsive web development skills, interactive UI components, and optimized performance.
 
-First, run the development server:
+Yasser Esam Alariqi
+
+## 🚀 Features
+
+This project implements various sections and functionalities, including:
+
+* **Dynamic Hero Section:** Engaging full-bleed background, animated title and call-to-action, with a smooth bottom fade.
+* **Responsive Navbar:** Fixed-position navigation with a modern glassy effect, active scroll state, and a slick mobile hamburger menu.
+* **Interactive Stats Section:** Visually appealing statistics presented with animated effects.
+* **About Us Section:** Clean, responsive image-text layout with key features, animated on scroll.
+* **Manufacturer Showcase:** Alternating image-text content section to highlight manufacturer details, with animated on scroll.
+* **Newsletter Subscription:** Full-bleed background image with a responsive, right-aligned (desktop) and centered (mobile) subscription form.
+* **Product Display:**
+    * Dedicated `SectionHeader` component for titles and descriptions.
+    * Modular `ProductCard` component displaying product details.
+    * Professional `Pagination` component for navigating through products.
+    * Dynamic product data with pagination functionality.
+* **Client Testimonials:** A responsive carousel powered by Swiper.js, showcasing client quotes alongside relevant imagery, with custom navigation buttons.
+* **"New In Store" Carousel:** Unique section featuring a text block on the left and a horizontally scrollable, full-bleed card carousel on the right, allowing mouse drag navigation without visible scrollbars.
+* **Responsive Footer:** Comprehensive footer with company logo, social media links (Font Awesome), multi-column navigation, and copyright information, adapting seamlessly across devices.
+* **Smooth Animations (AOS):** Integrated Animate On Scroll (AOS) for engaging entrance animations on various elements throughout the website.
+* **Optimized Images:** Utilizes Next.js `Image` component for efficient image loading.
+* **Cross-Browser Compatibility:** Designed for consistent experience across modern browsers.
+* **Clean Codebase:** Structured with modular components, TypeScript for type safety, and adheres to modern React/Next.js best practices.
+
+## 💻 Technologies Used
+
+* **Next.js 15+** (React Framework)
+* **React.js**
+* **TypeScript**
+* **Tailwind CSS**
+* **Swiper.js** (for carousels)
+* **AOS (Animate On Scroll)**
+
+
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+
+* Node.js (LTS version recommended)
+* npm or Yarn
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/furnishop-clone.git](https://github.com/YasserEsam/furnishop-clone.git)
+    cd furnishop-clone
+    ```
+
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+
+### Running the Development Server
+
+To run the project in development mode:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

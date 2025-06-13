@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+// Yasser Esam Alariqi
 // Removed motion and AnimatePresence imports as they were from a previous iteration and not in the provided code.
 
 const Navbar = () => {
