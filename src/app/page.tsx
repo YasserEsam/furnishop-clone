@@ -1,11 +1,15 @@
-import React from 'react'
+// app/page.tsx
+import Stats from "@/components/ui/Stats";
+import Hero from "@/components/sections/Hero";
+import React from "react";
 
-const page = () => {
+export default function Home() {
   return (
     <div>
-      <h1 className='text-3xl'>Home Page</h1>
+      <div>
+        <Hero />
+        <Stats />
+      </div>
     </div>
-  )
+  );
 }
-
-export default page

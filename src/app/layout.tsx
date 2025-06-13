@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Saira } from "next/font/google";
+import Navbar from "@/components/layout/Navbar";
 import "./globals.css";
 
 // Import Saira with CSS variable
@@ -24,7 +25,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={saira.variable}>
       <body className="antialiased">
-        {children}
+        <div className="min-h-screen">
+          <Navbar />
+          <main>{children}</main>
+        </div>
       </body>
     </html>
   );
