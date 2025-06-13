@@ -5,6 +5,7 @@ import React from "react";
 import AboutUs from "@/components/sections/About";
 import FurnitureManufacturer from "@/components/sections/FurnitureManufacturer";
 import Newsletter from "@/components/sections/Newsletter";
+import ProductSection from "@/components/sections/ProductSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Stats />
         <AboutUs />
         <FurnitureManufacturer/>
+        <ProductSection/>
         <Newsletter/>
       </div>
     </div>
