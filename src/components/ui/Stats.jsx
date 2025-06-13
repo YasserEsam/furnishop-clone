@@ -31,7 +31,7 @@ const Stats = () => {
 
   return (
     <div className="relative z-30 px-4 sm:px-6 -mt-24 sm:-mt-32 mb-10">
-      <div className="py-8 sm:py-12 mx-auto max-w-6xl rounded-3xl bg-[#286F6C]">
+      <div className="py-8 sm:py-12 mx-auto max-w-7xl rounded-3xl bg-[#286F6C]">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-y-10 gap-x-6 px-4 sm:px-6">
           {stats.map((stat, index) => (
             <StatItem

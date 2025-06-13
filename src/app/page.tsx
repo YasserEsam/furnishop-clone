@@ -2,6 +2,7 @@
 import Stats from "@/components/ui/Stats";
 import Hero from "@/components/sections/Hero";
 import React from "react";
+import AboutUs from "@/components/sections/About";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <div>
         <Hero />
         <Stats />
+        <AboutUs />
       </div>
     </div>
   );
