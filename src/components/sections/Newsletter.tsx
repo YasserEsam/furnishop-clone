@@ -2,7 +2,7 @@ import React from "react";
 
 const Newsletter = () => {
   return (
-    <section className="relative py-20 lg:py-28 overflow-hidden">
+    <section id="Contact" className="relative py-20 lg:py-28 overflow-hidden">
       <div
         className="absolute inset-0 z-0"
         style={{

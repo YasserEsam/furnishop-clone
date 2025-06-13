@@ -47,7 +47,7 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-8">
               <Link
-                href="/"
+                href="#Hero"
                 className="text-white hover:text-amber-300 px-3 py-2 text-sm font-medium transition-colors duration-300"
                 data-aos="fade-down"
                 data-aos-delay="100"
@@ -56,7 +56,7 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
-                href="/about"
+                href="#About"
                 className="text-white hover:text-amber-300 px-3 py-2 text-sm font-medium transition-colors duration-300"
                 data-aos="fade-down"
                 data-aos-delay="200"
@@ -65,16 +65,16 @@ const Navbar = () => {
                 About
               </Link>
               <Link
-                href="/features"
+                href="#Products"
                 className="text-white hover:text-amber-300 px-3 py-2 text-sm font-medium transition-colors duration-300"
                 data-aos="fade-down"
                 data-aos-delay="300"
                 data-aos-duration="600"
               >
-                Features
+                Products
               </Link>
               <Link
-                href="/contact"
+                href="#Contact"
                 className="text-white hover:text-amber-300 px-3 py-2 text-sm font-medium transition-colors duration-300"
                 data-aos="fade-down"
                 data-aos-delay="400"

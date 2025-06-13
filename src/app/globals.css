@@ -9,10 +9,33 @@ html {
 }
 
 .scrollbar-hide::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .scrollbar-hide {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* src/app/globals.css */
+
+body {
+  /* Updated hot-spot to center the 32x32 SVG */
+  cursor: url("/custom-cursor.svg") 16 16, auto;
+  scroll-behavior: smooth;
+}
+
+button,
+a,
+input[type="submit"] {
+  /* You can use the same or a different custom cursor for interactive elements */
+  cursor: url("/custom-cursor.svg") 16 16, pointer;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

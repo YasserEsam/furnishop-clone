@@ -198,7 +198,7 @@ const ProductSection = () => {
   };
 
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-white">
+    <section id="Products" className="py-16 sm:py-20 lg:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Animate the SectionHeader */}
         <div data-aos="fade-up" data-aos-duration="400">

@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="relative min-h-[700px] flex items-center justify-center overflow-hidden">
+    <div id="Hero" className="relative min-h-[700px] flex items-center justify-center overflow-hidden">
       <div
         className="absolute inset-0 -z-10"
         style={{
