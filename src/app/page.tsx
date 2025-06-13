@@ -7,6 +7,7 @@ import FurnitureManufacturer from "@/components/sections/FurnitureManufacturer";
 import Newsletter from "@/components/sections/Newsletter";
 import ProductSection from "@/components/sections/ProductSection";
 import TestimonialsSection from "@/components/sections/TestimonialsSection";
+import NewInStoreSection from "@/components/sections/NewInStoreSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <Stats />
         <AboutUs />
+         <NewInStoreSection />
         <FurnitureManufacturer/>
         <ProductSection/>
          <TestimonialsSection /> 
