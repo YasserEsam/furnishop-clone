@@ -32,7 +32,7 @@ export default function RootLayout({
     <html lang="en" className={saira.variable}>
       <body className="antialiased">
         <AOSInitializer /> {/* Include AOSInitializer here */}
-        <div className="min-h-screen">
+        <div className="min-h-screen overflow-hidden">
           <Navbar />
           <main>{children}</main>
           <Footer />

@@ -117,7 +117,7 @@ const TestimonialsSection = () => {
           <div
             className="flex justify-center space-x-4 mt-8 md:mt-0 md:absolute md:bottom-0 md:left-0 md:translate-y-full md:z-10"
             data-aos="fade-up"
-            data-aos-delay="500"
+            data-aos-delay="100"
             data-aos-duration="400"
           >
             <button className="swiper-button-prev-custom w-12 h-12 rounded-full bg-white text-[#286F6C] flex items-center justify-center shadow-md hover:bg-gray-100 transition-colors duration-200">
