@@ -140,7 +140,7 @@ const Navbar = () => {
         >
           <div className="backdrop-blur-lg bg-black/50 rounded-lg p-4 mx-2">
             <Link
-              href="/"
+              href="#Hero"
               className="block px-3 py-3 text-lg font-medium text-white hover:text-amber-300 transition-colors duration-300 border-b border-white/10"
               onClick={() => setIsOpen(false)}
               data-aos="fade-left"
@@ -150,7 +150,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              href="/about"
+              href="#About"
               className="block px-3 py-3 text-lg font-medium text-white hover:text-amber-300 transition-colors duration-300 border-b border-white/10"
               onClick={() => setIsOpen(false)}
               data-aos="fade-left"
@@ -160,17 +160,17 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              href="/features"
+              href="#Products"
               className="block px-3 py-3 text-lg font-medium text-white hover:text-amber-300 transition-colors duration-300 border-b border-white/10"
               onClick={() => setIsOpen(false)}
               data-aos="fade-left"
               data-aos-delay="300"
               data-aos-duration="400"
             >
-              Features
+              Products
             </Link>
             <Link
-              href="/contact"
+              href="#Contact"
               className="block px-3 py-3 text-lg font-medium text-white hover:text-amber-300 transition-colors duration-300"
               onClick={() => setIsOpen(false)}
               data-aos="fade-left"

@@ -1,10 +1,13 @@
 export default function Hero() {
   return (
-    <div id="Hero" className="relative min-h-[700px] flex items-center justify-center overflow-hidden">
+    <div
+      id="Hero"
+      className="relative min-h-[700px] flex items-center justify-center overflow-hidden"
+    >
       <div
         className="absolute inset-0 -z-10"
         style={{
-          backgroundImage: 'url("/living-room.png")',
+          backgroundImage: 'url("/living-room.jpg")',
           backgroundSize: "cover",
           backgroundPosition: "center bottom",
           backgroundRepeat: "no-repeat",

@@ -24,7 +24,7 @@ const testimonialsData = [
     title: "CEO of Tech Solutions",
     quote:
       "An outstanding team that delivers beyond expectations. FurniShop transformed our space with incredible design and quality.",
-    image: "/living-room.png",
+    image: "/living-room.jpg",
   },
   {
     id: 3,
