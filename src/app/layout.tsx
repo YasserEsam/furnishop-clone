@@ -4,6 +4,10 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
+// Import Swiper styles here
+import 'swiper/css';
+import 'swiper/css/navigation';
+
 // Import Saira with CSS variable
 const saira = Saira({
   variable: "--font-saira",
